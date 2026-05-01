@@ -13,9 +13,11 @@ Berdasarkan variabel target, terdapat 268 pasien positif diabetes dengan persent
 Variabel Glucose, Blood Pressure, Skin Thickness, Insulin, dan BMI akn dilakukan penanganan missing value karena nilai minumum 0 pada variabel-variabel ini mungkin menunjukkan adanya data yang tidak valid. Sedangkan, variabel Pregnancies dapat memiliki nilai 0 karena variabel ini menggambarkan jumlah kehamilan pasien, sehingga tidak memerlukan penanganan. Namun pada penelitian ini, outliers tidak ditangani secara khusus.
 
 ### **DETEKSI DAN PENANGANAN MISSING VALUE**
+<p align="justify">
 Penanganan missing values menggunakan metode Pengahapusan Baris (<5%) dan Imputasi Regresi Linear. Tujuan dari tahap ini adalah untuk memastikan bahwa data dalam kondisi bersih dan siap digunakan dalam model machine learning.
 
 ### **STANDARDISASI** <br>
+<p align="justify">
 Proses ini dilakukan khusus pada variabel bebas untuk memastikan bahwa semua fitur memberikan kontribusi yang seimbang dalam model, tanpa dipengaruhi oleh perbedaan skala antar variabel. Skala yang seragam dengan nilai harapan 0 dan simpangan baku 1
 </p>
 
