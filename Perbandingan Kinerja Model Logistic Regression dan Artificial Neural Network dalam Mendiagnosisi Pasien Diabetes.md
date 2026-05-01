@@ -14,5 +14,8 @@ Variabel Glucose, Blood Pressure, Skin Thickness, Insulin, dan BMI akn dilakukan
 
 ### **DETEKSI DAN PENANGANAN MISSING VALUE**
 Penanganan missing values menggunakan metode Pengahapusan Baris (<5%) dan Imputasi Regresi Linear. Tujuan dari tahap ini adalah untuk memastikan bahwa data dalam kondisi bersih dan siap digunakan dalam model machine learning.
+
+### **STANDARDISASI** <br>
+Proses ini dilakukan khusus pada variabel bebas untuk memastikan bahwa semua fitur memberikan kontribusi yang seimbang dalam model, tanpa dipengaruhi oleh perbedaan skala antar variabel. Skala yang seragam dengan nilai harapan 0 dan simpangan baku 1
 </p>
 
